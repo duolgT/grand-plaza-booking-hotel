@@ -11,7 +11,7 @@ const FeaturedDestination = () => {
       <h2 className="text-3xl font-bold text-center mb-8">
         Featured Destinations
       </h2>
-      <p className="text-gray-500 mt-2 text-sm">
+      <p className="text-gray-500 mt-2 text-sm mx-auto max-w-2xl text-center mb-8">
     Explore our most popular stays around the world
   </p>
 
@@ -21,13 +21,15 @@ const FeaturedDestination = () => {
         ))}
       </div>
       <button
-        onClick={() => {
-          navigate('/rooms');
-          window.scrollTo(0, 0);
-        }}
-        className="my-16 px-4 py-2 text-sm font-medium border border-gray-300 rounded hover:bg-gray-50 transition-all cursor-pointer ">
-        View All Destinations
-      </button>
+  onClick={() => {
+    navigate('/rooms');
+    window.scrollTo(0,0);
+  }}
+  className="my-16 px-4 py-2 text-sm font-medium border border-gray-300 rounded hover:bg-gray-50 transition-all cursor-pointer text-center block mx-auto"
+>
+  View All Destinations
+</button>
+
     </section>
   );
 };

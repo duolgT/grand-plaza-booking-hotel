@@ -62,9 +62,15 @@ const Navbar = () => {
                             <div className={`${isScrolled ? "bg-gray-700" : "bg-white"} h-0.5 w-0 group-hover:w-full transition-all duration-300`} />
                         </a>
                     ))}
-                    <button className={`border px-4 py-1 text-sm font-light rounded-full cursor-pointer ${isScrolled ? 'text-black' : 'text-white'} transition-all`} onClick={() => navigate("/owner")}>
-                        Dashboard
-                    </button>
+                    <button
+  className={`border px-4 py-1 text-sm font-light rounded-full cursor-pointer transition-all duration-300 
+    ${isScrolled ? 'text-black hover:bg-gray-100 hover:border-gray-400' : 'text-white hover:bg-white hover:text-black'}
+  `}
+  onClick={() => navigate("/owner")}
+>
+  Dashboard
+</button>
+
                 </div>
 
                 {/* Desktop Right */}
@@ -108,9 +114,14 @@ const Navbar = () => {
                         </a>
                     ))}
 
-                    {user &&<button className="border px-4 py-1 text-sm font-light rounded-full cursor-pointer transition-all" onClick={() => navigate("/owner")}>
-                        Dashboard
-                    </button>}
+                    {user && (
+  <button
+    className="border px-4 py-1 text-sm font-light rounded-full cursor-pointer transition-all duration-300 hover:bg-gray-800 hover:text-white hover:shadow-md"
+    onClick={() => navigate("/owner")}
+  >
+    Dashboard
+  </button>
+)}
 
                     {!user &&<button onClick={openSignIn} className="bg-black text-white px-8 py-2.5 rounded-full transition-all duration-500">
                         Login
