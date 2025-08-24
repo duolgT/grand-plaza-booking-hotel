@@ -37,7 +37,7 @@ const ExclusiveOffers = () => {
       </h2>
 
       {/* Cards */}
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 gap-14">
         {offers.map((offer) => (
           <div 
             key={offer.id} 

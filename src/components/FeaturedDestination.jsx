@@ -12,7 +12,7 @@ const FeaturedDestination = () => {
         Featured Destinations
       </h2>
       <p className="text-gray-500 mt-2 text-sm mx-auto max-w-2xl text-center mb-8">
-    Explore our most popular stays around the world
+         Explore our most popular stays around the world
   </p>
 
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
