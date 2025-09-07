@@ -1,8 +1,4 @@
-Perfect 👍 Since you’ve been building a Hotel Booking Web App (Grand Plaza) in React step by step, I’ll create a structured README.md that reflects the whole journey from setup → pages → features we discussed.
 
-Here’s a full draft:
-
-writing{variant="standard" title="README for Hotel Booking App"}
 
 🏨 Grand Plaza Hotel Booking App
 
@@ -201,7 +197,7 @@ This project is licensed under the MIT License.
 
 👨‍💻 Built by Duol Daniel Gatbel with guidance and iteration.
 
-writing{variant="standard" title="README for Hotel Booking App"}
+
 # 🏨 Grand Plaza Hotel Booking App
 
 A modern *Hotel Booking Web Application* built with *React + Tailwind CSS + React Router*.  
